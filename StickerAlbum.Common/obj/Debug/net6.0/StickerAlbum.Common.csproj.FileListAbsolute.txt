@@ -1,0 +1,7 @@
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\obj\Debug\net6.0\StickerAlbum.Common.csproj.AssemblyReference.cache
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\obj\Debug\net6.0\StickerAlbum.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\obj\Debug\net6.0\StickerAlbum.Common.AssemblyInfoInputs.cache
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\obj\Debug\net6.0\StickerAlbum.Common.AssemblyInfo.cs
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\obj\Debug\net6.0\StickerAlbum.Common.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\obj\Debug\net6.0\StickerAlbum.Common.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\obj\Debug\net6.0\StickerAlbum.Common.MvcApplicationPartsAssemblyInfo.cache
