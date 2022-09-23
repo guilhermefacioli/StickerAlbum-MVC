@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using StickerAlbum.Model.ImagePlayers;
 using StickerAlbum.Model.Players;
 
 namespace StickerAlbum.DatabaseAccess
@@ -10,6 +11,7 @@ namespace StickerAlbum.DatabaseAccess
         }
 
     public DbSet<Player> Players { get; set; }
-    
+    public DbSet<ImagePlayer> ImagePlayers { get; set; }
+
     }
 }

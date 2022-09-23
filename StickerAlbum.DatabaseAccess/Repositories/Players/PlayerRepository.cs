@@ -68,9 +68,31 @@ namespace StickerAlbum.DatabaseAccess.Repositories.Players
             return result;
         }
 
-        public Task<ApplicationResult<CollectionResult<Player>>> GetAll(PlayerFilter filter, PagingOptions pagingOptions)
+        public async Task<ApplicationResult<CollectionResult<Player>>> GetAll(PlayerFilter filter, PagingOptions pagingOptions)
         {
-            throw new NotImplementedException();
+            var query = Players;
+
+            query = query.Where(x => x.Id == filter.Id);
+            query = query.Where(x => x.Name == filter.Name);
+            query = query.Where(x => x.Club == filter.Club);
+
+            var items = await query.Skip(pagingOptions.Offset).Take(pagingOptions.Limit).ToListAsync();
+            var total = await query.CountAsync();
+
+            var result = new ApplicationResult<CollectionResult<Player>>
+            {
+                Result = new CollectionResult<Player>
+                {
+                    Items = items,
+                    Total = total
+                }
+            };
+            if (total == 0)
+            {
+                result.Errors.Add("No items found for the specified criteria");
+            }
+
+            return result;
         }
     }
 }

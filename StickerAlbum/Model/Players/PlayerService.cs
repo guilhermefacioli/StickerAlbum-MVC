@@ -15,7 +15,7 @@ namespace StickerAlbum.Model.Players
 
         public async Task<ApplicationResult<Player>> CreatePlayer(PlayerCreateCommand command)
         {
-            var entity = new Player(Guid.NewGuid(), command.Name, command.Height, command.Club);
+            var entity = new Player(Guid.NewGuid(), command.Name, command.Height, command.Club, command.ImagePlayerId);
 
             var creationResult = await _playerRepository.Create(entity);
 
