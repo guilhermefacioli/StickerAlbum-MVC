@@ -1,0 +1,6 @@
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.DatabaseAccess\obj\Debug\net6.0\StickerAlbum.DatabaseAccess.csproj.AssemblyReference.cache
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.DatabaseAccess\obj\Debug\net6.0\StickerAlbum.DatabaseAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.DatabaseAccess\obj\Debug\net6.0\StickerAlbum.DatabaseAccess.AssemblyInfoInputs.cache
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.DatabaseAccess\obj\Debug\net6.0\StickerAlbum.DatabaseAccess.AssemblyInfo.cs
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.DatabaseAccess\obj\Debug\net6.0\StickerAlbum.DatabaseAccess.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.DatabaseAccess\obj\Debug\net6.0\StickerAlbum.DatabaseAccess.MvcApplicationPartsAssemblyInfo.cache

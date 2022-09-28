@@ -1639,6 +1639,22 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "StickerAlbum.ViewModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Swashbuckle.AspNetCore": "6.2.3"
+        },
+        "compile": {
+          "bin/placeholder/StickerAlbum.ViewModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StickerAlbum.ViewModel.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -5505,6 +5521,11 @@
       "type": "project",
       "path": "../StickerAlbum.DatabaseAccess/StickerAlbum.DatabaseAccess.csproj",
       "msbuildProject": "../StickerAlbum.DatabaseAccess/StickerAlbum.DatabaseAccess.csproj"
+    },
+    "StickerAlbum.ViewModel/1.0.0": {
+      "type": "project",
+      "path": "../StickerAlbum.ViewModel/StickerAlbum.ViewModel.csproj",
+      "msbuildProject": "../StickerAlbum.ViewModel/StickerAlbum.ViewModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5514,6 +5535,7 @@
       "Microsoft.AspNetCore.Mvc.Core >= 2.2.5",
       "StickerAlbum >= 1.0.0",
       "StickerAlbum.DatabaseAccess >= 1.0.0",
+      "StickerAlbum.ViewModel >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -5546,6 +5568,9 @@
           "projectReferences": {
             "C:\\Users\\Guilherme\\Projetos C#\\StickerAlbum1\\StickerAlbum.DatabaseAccess\\StickerAlbum.DatabaseAccess.csproj": {
               "projectPath": "C:\\Users\\Guilherme\\Projetos C#\\StickerAlbum1\\StickerAlbum.DatabaseAccess\\StickerAlbum.DatabaseAccess.csproj"
+            },
+            "C:\\Users\\Guilherme\\Projetos C#\\StickerAlbum1\\StickerAlbum.ViewModel\\StickerAlbum.ViewModel.csproj": {
+              "projectPath": "C:\\Users\\Guilherme\\Projetos C#\\StickerAlbum1\\StickerAlbum.ViewModel\\StickerAlbum.ViewModel.csproj"
             },
             "C:\\Users\\Guilherme\\Projetos C#\\StickerAlbum1\\StickerAlbum\\StickerAlbum.csproj": {
               "projectPath": "C:\\Users\\Guilherme\\Projetos C#\\StickerAlbum1\\StickerAlbum\\StickerAlbum.csproj"

@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using StickerAlbum.Model.ImagePlayers;
 using StickerAlbum.Model.Players;
+using StickerAlbum.Model.Teams;
 
 namespace StickerAlbum.DatabaseAccess
 {
@@ -12,6 +13,7 @@ namespace StickerAlbum.DatabaseAccess
 
     public DbSet<Player> Players { get; set; }
     public DbSet<ImagePlayer> ImagePlayers { get; set; }
+    public DbSet<Team> Teams { get; set; }
 
     }
 }

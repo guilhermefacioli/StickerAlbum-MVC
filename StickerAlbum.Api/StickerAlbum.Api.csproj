@@ -15,6 +15,7 @@
 
   <ItemGroup>
 	  <ProjectReference Include="..\StickerAlbum.DatabaseAccess\StickerAlbum.DatabaseAccess.csproj" />
+	  <ProjectReference Include="..\StickerAlbum.ViewModel\StickerAlbum.ViewModel.csproj" />
 	  <ProjectReference Include="..\StickerAlbum\StickerAlbum.csproj" />
 
   </ItemGroup>

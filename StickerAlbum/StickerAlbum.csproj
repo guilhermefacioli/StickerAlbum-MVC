@@ -21,7 +21,6 @@
 
   <ItemGroup>
     <Folder Include="Views\.vs\CountryPageOficial\v17\" />
-    <Folder Include="Model\Teams\" />
   </ItemGroup>
 
   <ItemGroup>
