@@ -3,5 +3,13 @@ C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\obj\Debug\net6.
 C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\obj\Debug\net6.0\StickerAlbum.Common.AssemblyInfoInputs.cache
 C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\obj\Debug\net6.0\StickerAlbum.Common.AssemblyInfo.cs
 C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\obj\Debug\net6.0\StickerAlbum.Common.csproj.CoreCompileInputs.cache
-C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\obj\Debug\net6.0\StickerAlbum.Common.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\obj\Debug\net6.0\StickerAlbum.Common.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\bin\Debug\net6.0\StickerAlbum.Common.deps.json
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\bin\Debug\net6.0\StickerAlbum.Common.dll
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\bin\Debug\net6.0\ref\StickerAlbum.Common.dll
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\bin\Debug\net6.0\StickerAlbum.Common.pdb
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\obj\Debug\net6.0\scopedcss\bundle\StickerAlbum.Common.styles.css
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\obj\Debug\net6.0\StickerAlbum.Common.dll
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\obj\Debug\net6.0\ref\StickerAlbum.Common.dll
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Common\obj\Debug\net6.0\StickerAlbum.Common.pdb
