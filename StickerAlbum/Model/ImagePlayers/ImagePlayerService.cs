@@ -1,5 +1,6 @@
 ﻿using StickerAlbum.Command.ImagePlayers;
 using StickerAlbum.Common;
+using StickerAlbum.Filters;
 
 namespace StickerAlbum.Model.ImagePlayers
 {
@@ -52,6 +53,11 @@ namespace StickerAlbum.Model.ImagePlayers
             };
 
             return result;
+        }
+
+        public Task<ApplicationResult<CollectionResult<ImagePlayer>>> GetAllImage(Filter filter, PagingOptions pagingOptions)
+        {
+            return _imagePlayerRepository.GetAll(filter, pagingOptions);
         }
 
         public Task<ApplicationResult<ImagePlayer>> GetImage(Guid id)

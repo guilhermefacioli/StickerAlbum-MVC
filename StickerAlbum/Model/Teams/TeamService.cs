@@ -1,5 +1,6 @@
 ﻿using StickerAlbum.Command.Teams;
 using StickerAlbum.Common;
+using StickerAlbum.Filters;
 
 namespace StickerAlbum.Model.Teams
 {
@@ -78,6 +79,9 @@ namespace StickerAlbum.Model.Teams
             return _teamRepository.Get(id);
         }
 
-       
+        public Task<ApplicationResult<CollectionResult<Team>>> GetAllTeam(Filter filter, PagingOptions pagingOptions)
+        {
+            return _teamRepository.GetAll(filter, pagingOptions);
+        }
     }
 }

@@ -1,7 +1,9 @@
-﻿namespace StickerAlbum.ViewModel.Player
+﻿namespace StickerAlbum.ViewModel.Players
 {
-    public class CreatePlayerViewModel
+    public class PlayerViewModel
     {
+        public Guid Id { get; set; }
+
         public string Name { get; set; }
 
         public int Height { get; set; }

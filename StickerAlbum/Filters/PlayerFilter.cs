@@ -1,17 +1,12 @@
 ﻿namespace StickerAlbum.Filters
 {
-    public class PlayerFilter
+    public class PlayerFilter : Filter
     {
-        public PlayerFilter(Guid id,string name, string club)
+        public PlayerFilter(string club, Guid id, string name)
+            :base(id, name)
         {
-            Id = id;
-            Name = name;
             Club = club;
         }
-
-        public Guid Id { get; set; }
-
-        public string  Name { get; set; }
 
         public string Club { get; set; }
 

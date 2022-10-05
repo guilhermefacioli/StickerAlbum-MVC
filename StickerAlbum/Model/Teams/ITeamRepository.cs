@@ -1,4 +1,5 @@
 ﻿using StickerAlbum.Common;
+using StickerAlbum.Filters;
 
 namespace StickerAlbum.Model.Teams
 {
@@ -11,5 +12,7 @@ namespace StickerAlbum.Model.Teams
         Task<ApplicationResult> Delete(Guid id);
 
         Task<ApplicationResult<Team>> Get(Guid id);
+
+        Task<ApplicationResult<CollectionResult<Team>>> GetAll(Filter filter, PagingOptions pagingOptions);
     }
 }

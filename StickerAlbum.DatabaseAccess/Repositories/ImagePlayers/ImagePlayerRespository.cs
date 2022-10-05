@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using StickerAlbum.Common;
+using StickerAlbum.Filters;
 using StickerAlbum.Model.ImagePlayers;
 
 namespace StickerAlbum.DatabaseAccess.Repositories.ImagePlayers
@@ -60,6 +61,35 @@ namespace StickerAlbum.DatabaseAccess.Repositories.ImagePlayers
             if (!item.Any())
             {
                 result.Errors.Add($"No items found for the id: {id}");
+            }
+
+            return result;
+        }
+
+        public async Task<ApplicationResult<CollectionResult<ImagePlayer>>> GetAll(Filter filter, PagingOptions pagingOptions)
+        {
+            var query = ImagePlayers;
+
+            if (filter.Name != null)
+            {
+                query = query.Where(x => x.Name == filter.Name);
+            }
+
+            var items = await query.Skip(pagingOptions.Offset).Take(pagingOptions.Limit).ToListAsync();
+            var total = await query.CountAsync();
+
+            var result = new ApplicationResult<CollectionResult<ImagePlayer>>
+            {
+                Result = new CollectionResult<ImagePlayer>
+                {
+                    Total = total,
+                    Items = items
+                }
+            };
+
+            if (total == 0)
+            {
+                result.Errors.Add("No items found for the specified criteria");
             }
 
             return result;

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using StickerAlbum.Common;
+using StickerAlbum.Filters;
 using StickerAlbum.Model.Teams;
 
 namespace StickerAlbum.DatabaseAccess.Repositories.Teams
@@ -64,6 +65,35 @@ namespace StickerAlbum.DatabaseAccess.Repositories.Teams
             {
                 result.Errors.Add($"No items found for the id: {id}");
             }
+            return result;
+        }
+
+        public async Task<ApplicationResult<CollectionResult<Team>>> GetAll(Filter filter, PagingOptions pagingOptions)
+        {
+            var query = Teams;
+
+            if(filter.Name != null)
+            {
+                query = query.Where(x => x.Name == filter.Name);
+            }
+
+            var items = await query.Skip(pagingOptions.Offset).Take(pagingOptions.Limit).ToListAsync();
+            var total = await query.CountAsync();// Lucas expli dessa duas linhas
+
+            var result = new ApplicationResult<CollectionResult<Team>>
+            {
+                Result = new CollectionResult<Team>
+                {
+                    Total = total,
+                    Items = items
+                }
+            };
+
+            if(total == 0)
+            {
+                result.Errors.Add("No items found for the specified criteria");
+            }
+
             return result;
         }
     }

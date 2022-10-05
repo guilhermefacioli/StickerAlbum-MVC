@@ -1,5 +1,6 @@
 ﻿using StickerAlbum.Command.ImagePlayers;
 using StickerAlbum.Common;
+using StickerAlbum.Filters;
 
 namespace StickerAlbum.Model.ImagePlayers
 {
@@ -10,6 +11,9 @@ namespace StickerAlbum.Model.ImagePlayers
         Task<ApplicationResult> DeleteImage(Guid id);
 
         Task<ApplicationResult<ImagePlayer>> GetImage(Guid id);
+
+        Task<ApplicationResult<CollectionResult<ImagePlayer>>> GetAllImage(Filter filter, PagingOptions pagingOptions);
+
 
     }
 }
