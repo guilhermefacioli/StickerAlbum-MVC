@@ -76,6 +76,15 @@ namespace StickerAlbum.Api.Controllers
 
             return Created(result.Result!.Id.ToString(), _mapper.Map<PlayerViewModel>(result.Result));
         }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdatePlayer(Guid id, [FromBody] CreatePlayerViewModel model)
+        {
+            var command = new PlayerUpdateCommand(model.Name, model.Height, model.Club);
+
+            await _playerService.UpdatePlayer(id, command);
+
+            return NoContent();
+        }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePlayer(Guid id)
