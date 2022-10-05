@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Guilherme\\Projetos C#\\StickerAlbum\\StickerAlbum.csproj": {}
+    "C:\\Users\\Guilherme\\Projetos C#\\StickerAlbum1\\StickerAlbum.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Guilherme\\Projetos C#\\StickerAlbum\\StickerAlbum.csproj": {
+    "C:\\Users\\Guilherme\\Projetos C#\\StickerAlbum1\\StickerAlbum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guilherme\\Projetos C#\\StickerAlbum\\StickerAlbum.csproj",
+        "projectUniqueName": "C:\\Users\\Guilherme\\Projetos C#\\StickerAlbum1\\StickerAlbum.csproj",
         "projectName": "StickerAlbum",
-        "projectPath": "C:\\Users\\Guilherme\\Projetos C#\\StickerAlbum\\StickerAlbum.csproj",
+        "projectPath": "C:\\Users\\Guilherme\\Projetos C#\\StickerAlbum1\\StickerAlbum.csproj",
         "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guilherme\\Projetos C#\\StickerAlbum\\obj\\",
+        "outputPath": "C:\\Users\\Guilherme\\Projetos C#\\StickerAlbum1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Guilherme\\AppData\\Roaming\\NuGet\\NuGet.Config",

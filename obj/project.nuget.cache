@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xlWaG1MYYcCgGu8Lg8SV4Cr+81akzCyCrraBllL9Lg4n7sGufPnqRQ9J9YWv0EZpvqyfVxddA+VNykIsl+UAcQ==",
+  "dgSpecHash": "4XPc/rW6p0g6E8bWmQTC406ZoA3/x/rxO1u09Gki+eLHEKj/4ZUcLQAY5Z8sgBkP/AhuwgGYLX/aWo5bpODwJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Guilherme\\Projetos C#\\StickerAlbum\\StickerAlbum.csproj",
+  "projectFilePath": "C:\\Users\\Guilherme\\Projetos C#\\StickerAlbum1\\StickerAlbum.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
