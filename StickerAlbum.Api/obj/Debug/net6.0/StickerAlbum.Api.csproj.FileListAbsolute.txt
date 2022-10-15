@@ -70,3 +70,4 @@ C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Api\obj\Debug\net6.0\S
 C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Api\obj\Debug\net6.0\ref\StickerAlbum.Api.dll
 C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Api\obj\Debug\net6.0\StickerAlbum.Api.pdb
 C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Api\obj\Debug\net6.0\StickerAlbum.Api.genruntimeconfig.cache
+C:\Users\Guilherme\Projetos C#\StickerAlbum1\StickerAlbum.Api\obj\Debug\net6.0\StickerAlbum.Api.MvcApplicationPartsAssemblyInfo.cs

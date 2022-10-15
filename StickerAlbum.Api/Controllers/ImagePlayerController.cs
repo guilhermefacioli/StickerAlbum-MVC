@@ -28,7 +28,7 @@ namespace StickerAlbum.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll([FromBody] FilterImagePlayerViewModel model, [FromBody] PagingOptions pagingOptions)
+        public async Task<IActionResult> GetAll([FromQuery] FilterImagePlayerViewModel model, [FromQuery] PagingOptions pagingOptions)
         {
             var filter = _mapper.Map<Filter>(model);
             var response = await _imagePlayerService.GetAllImage(filter, pagingOptions);
@@ -64,10 +64,10 @@ namespace StickerAlbum.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateImagePlayer([FromBody] CreateImagePlayerViewModel model)
+        public async Task<IActionResult> CreateImagePlayer(IFormFile file, [FromForm] CreateImagePlayerViewModel model)
         {
             var command = new ImagePlayerCreateCommand(
-                Guid.NewGuid(), model.Name, model.Path,model.File);
+                Guid.NewGuid(), model.Name, model.Path, file);
 
             var result = await _imagePlayerService.CreateImage(command);
             

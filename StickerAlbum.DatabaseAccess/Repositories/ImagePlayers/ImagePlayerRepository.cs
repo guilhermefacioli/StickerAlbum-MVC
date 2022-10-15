@@ -5,12 +5,12 @@ using StickerAlbum.Model.ImagePlayers;
 
 namespace StickerAlbum.DatabaseAccess.Repositories.ImagePlayers
 {
-    public class ImagePlayerRespository : IImagePlayerRepository
+    public class ImagePlayerRepository : IImagePlayerRepository
     {
         private readonly StickerAlbumContext _context;
         private IQueryable<ImagePlayer> ImagePlayers => _context.ImagePlayers.AsQueryable();
 
-        public ImagePlayerRespository (StickerAlbumContext context)
+        public ImagePlayerRepository (StickerAlbumContext context)
         {
             _context = context;
         }

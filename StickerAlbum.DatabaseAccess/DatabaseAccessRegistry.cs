@@ -1,6 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using StickerAlbum.DatabaseAccess.Repositories.ImagePlayers;
 using StickerAlbum.DatabaseAccess.Repositories.Players;
+using StickerAlbum.DatabaseAccess.Repositories.Teams;
+using StickerAlbum.Model.ImagePlayers;
 using StickerAlbum.Model.Players;
+using StickerAlbum.Model.Teams;
 
 namespace StickerAlbum.DatabaseAccess
 {
@@ -20,6 +24,8 @@ namespace StickerAlbum.DatabaseAccess
             }
 
             services.AddTransient<IPlayerRepository, PlayerRepository>();
+            services.AddTransient<IImagePlayerRepository, ImagePlayerRepository>();
+            services.AddTransient<ITeamRepository, TeamRepository>();
 
             return services;
         }
